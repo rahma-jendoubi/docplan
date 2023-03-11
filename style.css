@@ -1,0 +1,305 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap); /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+body {
+    color: #747474;
+    font-family: Roboto,Arial,sans-serif;
+    padding-top: 70px;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #3d83df;
+}
+
+
+h1 {
+    font-weight: 300;
+    font-family: Work Sans,Arial,sans-serif;
+    letter-spacing: -.3px;
+    color : #00bfa5;
+    font-size: 2em;
+    margin: .67em 0
+}
+.logo-docplanner {
+    width: 268px;
+    height: 33px
+}
+
+
+
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s
+}
+
+
+
+
+
+.section__inner {
+    zoom:1;max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative
+}
+
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background: hsla(0,0%,100%,.98);
+    transition: box-shadow .25s ease 0s
+}
+
+.main-header h1 {
+    margin: 2px 0 0;
+    line-height: 68px;
+    display: inline-block;
+    position: relative
+}
+
+
+
+.main-header a {
+    display: inline-block
+}
+
+.main-header.is-sticky {
+    box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15)
+}
+
+
+
+.main-nav {
+    position: relative;
+    float: right
+}
+
+
+
+.main-menu {
+    list-style: none;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 2em;
+    padding: 1.33em 0
+}
+
+.main-menu a {
+    color: #ababab;
+    display: block;
+    text-decoration: none;
+    padding: 0 .6em
+}
+
+.main-menu a:hover {
+    color: #00b39b
+}
+
+.main-menu li {
+    display: inline-block
+}
+
+
+.main-menu .is-current,.main-menu .is-current a {
+    color: #00b39b
+}
+
+.grid {
+    margin: 0 -10px;
+    display: flex;
+    
+}
+.par1{
+margin-right: 20px;    
+    }
+   
+
+.main-footer {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0
+}
+
+.main-footer .section__inner,.main-footer p {
+    font-size: 12px;
+    color: #ababab
+}
+
+.main-footer p {
+    margin-bottom: .4em
+}
+
+.lead {
+    margin: 2.0625rem auto 3.75rem
+}
+
+.lead p {
+    margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400
+}
+
+.lead h1 {
+    text-align: center
+}
+
+
+
+.lead__logo {
+    display: block;
+    margin: 0 auto
+}
+
+
+.brands h1 {
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    padding-right: 1em
+}
+
+
+.brands__logos {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    font-size: 0;
+    list-style: none;
+}
+
+
+
+.brands__logos li {
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 0;
+    padding: 5px 0 5px 5px;
+    width: 25%
+}
+
+
+
+.brands__logos .clinicloud img,.brands__logos .feegow img,.brands__logos .gipo img,.brands__logos .jameda img,.brands__logos .tuotempo img {
+    transition: all .2s ease 0s;
+    filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    -webkit-filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    opacity: .55
+}
+
+.brands__logos .clinicloud:hover img,.brands__logos .feegow:hover img,.brands__logos .gipo:hover img,.brands__logos .jameda:hover img,.brands__logos .tuotempo:hover img {
+    filter: none;
+    opacity: 1
+}
+
+.brands__logos .tuotempo img {
+    height: 16px
+}
+
+.brands__logos .jameda img {
+    height: 20px
+}
+
+.brands__logos .clinicloud,.brands__logos .gipo {
+    width: 12.5%
+}
+
+
+
+.brands__logos .clinicloud img,.brands__logos .gipo img {
+    height: 34px
+}
+
+.brands__logos a {
+    display: inline-block;
+    padding: 5px 0
+}
+
+.brands__logos a svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%
+}
+
+.brands__logos a path {
+    transition: all .2s ease 0s;
+    fill: hsla(0,0%,67%,.7)
+}
+
+.brands__logos a:hover path {
+    fill: #00bfa5
+}
+
+.stats {
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+
+    padding: 1.875em 0 .625em;
+    margin: 3.125rem auto 5.5rem
+}
+
+
+.stats__header p {
+    max-width: 415px;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143
+}
+
+.stats__item {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em
+}
+
+.stats__item h3 {
+    font-size: 1.8461538462em;
+    margin: .5em 0
+}
+
+
+.join-us {
+    margin: 5rem auto
+}
+
+.join-us__header {
+    max-width: 520px;
+    margin: 0 auto;
+    font-size: .875em;
+    text-align: center
+}
+
+.join-us__header h1 {
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: .75em
+}
+
